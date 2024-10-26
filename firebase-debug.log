@@ -1,0 +1,46 @@
+[debug] [2024-10-26T11:20:50.156Z] ----------------------------------------------------------------------
+[debug] [2024-10-26T11:20:50.157Z] Command:       /opt/homebrew/Cellar/node@18/18.20.4/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-10-26T11:20:50.157Z] CLI Version:   13.23.0
+[debug] [2024-10-26T11:20:50.157Z] Platform:      darwin
+[debug] [2024-10-26T11:20:50.157Z] Node Version:  v18.20.4
+[debug] [2024-10-26T11:20:50.158Z] Time:          Sat Oct 26 2024 16:50:50 GMT+0530 (India Standard Time)
+[debug] [2024-10-26T11:20:50.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-26T11:20:50.162Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-26T11:20:50.162Z] > authorizing via signed-in user (00mr.lg00@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ganeshg/Documents/frontend/netflix-c
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-26T11:22:51.621Z] Checked if tokens are valid: true, expires at: 1729945227269
+[debug] [2024-10-26T11:22:51.621Z] Checked if tokens are valid: true, expires at: 1729945227269
+[debug] [2024-10-26T11:22:51.625Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-10-26T11:22:52.342Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-10-26T11:22:52.342Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project netflix-c-8a3ea (Netflix-C) 
+[info] 
+=== Hosting Setup
+[debug] [2024-10-26T11:23:28.653Z] Checked if tokens are valid: true, expires at: 1729945227269
+[debug] [2024-10-26T11:23:28.653Z] Checked if tokens are valid: true, expires at: 1729945227269
+[debug] [2024-10-26T11:23:28.654Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-c-8a3ea [none]
+[debug] [2024-10-26T11:23:29.093Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-c-8a3ea 200
+[debug] [2024-10-26T11:23:29.093Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-c-8a3ea {"projectId":"netflix-c-8a3ea","projectNumber":"811767670925","displayName":"Netflix-C","name":"projects/netflix-c-8a3ea","resources":{"hostingSite":"netflix-c-8a3ea"},"state":"ACTIVE","etag":"1_22c34895-8be4-4a5b-8ff3-9b98bcd79170"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
