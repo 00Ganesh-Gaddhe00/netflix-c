@@ -21,7 +21,7 @@ export const userSlice = createSlice({
   
 });
 
-export const { login, logout } = counterSlice.actions;
+export const { login, logout } = userSlice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of
@@ -32,3 +32,4 @@ export const selectuser = (state) => state.user.user;
 // Here's an example of conditionally dispatching actions based on current state.
 
 export default userSlice.reducer;
+
